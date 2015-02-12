@@ -16,10 +16,10 @@
 #include "LTerminal.h"
 
 //defines: user credentials
-#define WIFI_AP "net" //wifi AP
-#define WIFI_PASSWORD "netconn14" //wifi Password
+#define WIFI_AP "your_AP" //wifi AP
+#define WIFI_PASSWORD "password" //wifi Password
 #define WIFI_AUTH LWIFI_WPA// choose from LWIFI_OPEN, LWIFI_WPA, or LWIFI_WEP.
-#define SERVER "192.168.1.101" //server address
+#define SERVER "192.168.1.101" //set server i.p address
 #define PORT 2215 //port
 
 char buff[256];
