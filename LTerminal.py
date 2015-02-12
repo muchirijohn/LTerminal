@@ -1,3 +1,14 @@
+"""
+"
+" WiFi Server for LinkIt One
+"
+" LTerminal.py
+" 
+" Author: Muchiri John
+" Feb 05 2015
+"
+"""
+
 
 import socketserver
 import sys
