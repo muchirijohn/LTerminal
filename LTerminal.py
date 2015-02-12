@@ -24,7 +24,6 @@ class MyTCPHandler(socketserver.StreamRequestHandler):
     def handle(self):
         try:
             self.data = str(self.rfile.readline().strip())
-            #print("{} wrote:".format(self.client_address[0]))
             if len(self.data) < 0:
                 return
             self.header = self.data#.indexOf(0, len(self.data))
